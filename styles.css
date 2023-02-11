@@ -1,0 +1,118 @@
+.gradient-background{
+    background-image: linear-gradient(60deg, #161616, #000000);
+}
+
+.nav-item{
+    font-family: 'Signika', sans-serif;
+}
+
+
+body {
+    background: linear-gradient(39deg, #1db954, #000000);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 29s ease infinite;
+    -moz-animation: AnimationName 29s ease infinite;
+    animation: AnimationName 29s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.upper{
+    min-height: 72.5vh;
+    background-color: #000000;
+    color: white;
+    width: 75%;
+    margin: 20px auto;
+    border-radius: 12px;
+    padding: 12px;
+    background-image: url('https://cdn.dribbble.com/users/379014/screenshots/11261484/chill-out_4x.png');
+    background-position: right;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+.song-list h1{
+    margin-bottom: 30px;
+}
+
+.songItem{
+    height: 50px;
+    background-color: #ffffff;
+    width: 500px;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    border-radius: 50px;
+    margin: 10px 0;
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+       margin: 0;
+       padding: 0;
+    }
+    .songItem {
+       width: 100%;
+    }
+ }
+
+.songItem img{
+    width: 40px;
+    margin: 12px 22px;
+    border-radius: 50px;
+}
+
+.songItemPlay{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.timestamp{
+    margin-right: 10px;
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: #000000;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+
+.icons i {
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+#myProgressbar{
+    width: 80vw;
+}
+
